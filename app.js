@@ -1,7 +1,7 @@
 console.log("hola mundo");
 
-function hola() {
-  console.log("hola DH");
-}
+const hola = (camada) => {
+  console.log("hola DH" + camada);
+};
 
-hola();
+hola("camada2");
